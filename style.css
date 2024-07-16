@@ -1,0 +1,39 @@
+
+body {
+ font-family: "Montserrat", sans-serif;
+    background: #f4b315 ;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+font-size: 80px;
+
+}
+select {
+font-size: 20px;
+    width: 500px;
+    padding: 20px;
+    background: rgb(228, 155, 15) ;
+    color: black ;
+    border: 3px solid black ;
+    border-radius: 30px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+.country-info {
+
+    background-color:rgb(228, 155, 15);
+    padding: 20px 70px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.country-info img {
+border-radius: 10px;
+}
+.country-info span {
+padding: 10px;
+}
